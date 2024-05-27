@@ -1,0 +1,6 @@
+# Arquivos de imagem baixados
+/img/*
+
+# Ambiente virtual (se estiver usando)
+venv/
+env/
