@@ -11,7 +11,27 @@ Este script em Python oferece uma interface de linha de comando (CLI) para baixa
 
 1. Clone este repositório ou faça o download do arquivo `download_images.py`.
 2. Certifique-se de ter Python instalado em seu sistema.
-3. Instale as dependências necessárias executando o seguinte comando:
+3. É altamente recomendável criar um ambiente virtual para isolar as dependências do projeto. Para isso, execute o seguinte comando:
+
+    ```
+    python -m venv <venv>
+    ```
+
+    Substitua `<venv>` pelo nome desejado para o ambiente virtual.
+
+4. Ative o ambiente virtual. No Linux/macOS, use:
+
+    ```
+    source <venv>/bin/activate
+    ```
+
+    No Windows, use:
+
+    ```
+    <venv>\Scripts\activate
+    ```
+
+5. Instale as dependências necessárias executando o seguinte comando:
 
     ```
     pip install -r requirements.txt
